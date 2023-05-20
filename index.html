@@ -1,0 +1,61 @@
+<style>
+    
+  
+    label {
+        display: block;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        width: 100%;
+        background-color: #3498DB;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: #3498DB;
+    }
+</style>
+
+
+<script type="text/javascript">var queryForm=function(e){var t=!(!e||!e.reset)&&e.reset,n=window.location.toString().split("?");if(n.length>1){var o=n[1].split("&");for(s in o){var r=o[s].split("=");(t||null===sessionStorage.getItem(r[0]))&&sessionStorage.setItem(r[0],decodeURIComponent(r[1]))}}for(var i=document.querySelectorAll("input[type=hidden], input[type=text]"),s=0;s<i.length;s++){var a=sessionStorage.getItem(i[s].name);a&&(document.getElementsByName(i[s].name)[0].value=a)}};setTimeout(function(){queryForm()},3e3);</script>
+
+ 
+<div class="form-container" style="position: relative;">
+   
+    <form action="https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NmQwNTZhMDYzNjA0MzM1MjY1NTUzNiI_3D_pc" method="POST" data-uniqid="1683413661054" class="" id="formsubmit" data-selector="form">
+        
+        <input type="text" id="name" name="name" placeholder="First Name?" required="">
+
+    
+                
+                <input type="email" id="email" name="email" placeholder="Your Email?" required="">
+
+                 <input type="number" id="phone" name="phone" placeholder="Your Phone Number?" required="">
+ 
+
+        <input type="hidden" name="utm_source" value="">
+<input type="hidden" name="utm_medium" value="">
+<input type="hidden" name="utm_campaign" value="">
+<input type="hidden" name="utm_content" value="">
+<input type="hidden" name="program_name" value="Test Program">
+
+        <button type="submit">Sign Up</button>
+    </form>
+</div>
+
+ 
